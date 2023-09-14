@@ -14,14 +14,15 @@ const Home = () => {
 		<div className="pb-5 position-relative"style={{height:"100vh",}}>
 			<Navbar/>
 			<Jumbotron/>
-
 			<div className="container" style={{display:"flex", justifyContent: "space-around"}}>
 				<Cards/> 
 				<Cards/> 
 				<Cards/> 
 				<Cards/>
 			</div>
-			<Footer/>
+			<div>
+				<Footer/>
+			</div>
 		</div>
 	);
 };
