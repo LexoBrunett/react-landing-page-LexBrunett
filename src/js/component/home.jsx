@@ -11,7 +11,7 @@ import "../../styles/index.css"
 //create your first component
 const Home = () => {
 	return (
-		<div className="pb-5 position-relative"style={{height:"100vh",}}>
+		<div className="App">
 			<Navbar/>
 			<Jumbotron/>
 			<div className="container" style={{display:"flex", justifyContent: "space-around"}}>
