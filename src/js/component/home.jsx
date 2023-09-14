@@ -20,9 +20,7 @@ const Home = () => {
 				<Cards/> 
 				<Cards/>
 			</div>
-			<div>
-				<Footer/>
-			</div>
+			<Footer/>
 		</div>
 	);
 };
